@@ -27,3 +27,7 @@ img {
 .search-game {
   margin-left: auto;
 }
+
+::ng-deep.mat-dialog-container {
+  background-color: #252526 !important;
+}

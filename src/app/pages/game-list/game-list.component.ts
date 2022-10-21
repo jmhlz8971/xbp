@@ -7,7 +7,7 @@ import { GameViewComponent } from './game-view/game-view.component';
 @Component({
   selector: 'app-game-list',
   templateUrl: './game-list.component.html',
-  styleUrls: ['./game-list.component.css'],
+  styleUrls: ['./game-list.component.scss'],
 })
 export class GameListComponent implements OnInit {
   title = 'XBP';
