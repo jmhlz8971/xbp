@@ -7,6 +7,8 @@
 mat-card {
   margin-bottom: 10px;
   border: 3px solid rgba(0, 0, 0, 0);
+  background-color: #252526;
+  border-radius: 20px;
 }
 
 mat-card:hover {
@@ -15,7 +17,7 @@ mat-card:hover {
 }
 
 img {
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .game-title {

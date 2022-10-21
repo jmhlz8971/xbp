@@ -1,3 +1,7 @@
+.custom-dialog {
+  background-color: #252526;
+}
+
 .inline {
   display: inline-block;
   vertical-align: top;
@@ -12,6 +16,7 @@
 }
 
 .info-container {
+  font-size: 1rem;
   white-space: pre-wrap;
   background-color: rgb(39, 39, 39);
   padding: 10px;
@@ -19,12 +24,12 @@
   border-radius: 5px;
   margin-bottom: 20px;
   border: 1px solid rgb(44, 44, 44);
-  width: 300px;
 }
 
 .series-title {
+  font-size: 1rem;
   font-weight: bolder;
-  width: 75px;
+  width: fit-content;
   padding: 5px;
   vertical-align: middle;
   height: 20px;
@@ -34,8 +39,9 @@
 }
 
 .one-title {
+  font-size: 1rem;
   font-weight: bolder;
-  width: 60px;
+  width: fit-content;
   padding: 5px;
   vertical-align: middle;
   height: 20px;
@@ -45,8 +51,9 @@
 }
 
 .physical-title {
+  font-size: 1rem;
   font-weight: bolder;
-  width: 115px;
+  width: fit-content;
   padding: 5px;
   vertical-align: middle;
   height: 20px;
