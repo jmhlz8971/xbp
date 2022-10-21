@@ -1,0 +1,27 @@
+.content {
+  padding-top: 50px;
+  margin: auto;
+  width: 75%;
+}
+
+mat-card {
+  margin-bottom: 10px;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+mat-card:hover {
+  border: 3px solid #107c10;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.game-title {
+  font-size: 1.2rem;
+}
+
+.search-game {
+  margin-left: auto;
+}

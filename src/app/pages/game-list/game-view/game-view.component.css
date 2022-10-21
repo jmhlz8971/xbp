@@ -1,0 +1,56 @@
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.m-left-s {
+  margin-left: 10px;
+}
+
+.info-container {
+  white-space: pre-wrap;
+  background-color: rgb(39, 39, 39);
+  padding: 10px;
+  height: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(44, 44, 44);
+  width: 300px;
+}
+
+.series-title {
+  font-weight: bolder;
+  width: 75px;
+  padding: 5px;
+  vertical-align: middle;
+  height: 20px;
+  background-color: #4f704a;
+  border-radius: 5px;
+  border: 1px solid lightgreen;
+}
+
+.one-title {
+  font-weight: bolder;
+  width: 60px;
+  padding: 5px;
+  vertical-align: middle;
+  height: 20px;
+  background-color: #85bf7c;
+  border-radius: 5px;
+  border: 1px solid lightgreen;
+}
+
+.physical-title {
+  font-weight: bolder;
+  width: 115px;
+  padding: 5px;
+  vertical-align: middle;
+  height: 20px;
+  background-color: #4a5c70;
+  border-radius: 5px;
+  border: 1px solid rgb(144, 196, 238);
+}

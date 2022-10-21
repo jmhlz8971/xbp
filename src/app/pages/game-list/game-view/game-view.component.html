@@ -1,0 +1,110 @@
+<h1 mat-dialog-title>{{ dialogGame.Title }}</h1>
+<mat-dialog-content>
+  <div>
+    <div class="inline w-half">
+      <p class="physical-title inline">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-solid"
+          fontIcon="fa-compact-disc"
+        ></mat-icon>
+        Physical Game
+      </p>
+    </div>
+    <div class="inline w-half">
+      <p class="physical-title inline m-left-s">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-solid"
+          fontIcon="fa-photo-film"
+        ></mat-icon>
+        Media Info
+      </p>
+    </div>
+  </div>
+  <div>
+    <div class="inline w-half">
+      <div class="info-container">
+        <p [innerHTML]="dialogGame.Info"></p>
+      </div>
+    </div>
+    <div class="inline w-half">
+      <div class="info-container m-left-s">
+        <p><b>Video:</b> {{ dialogGame.Video }}</p>
+        <p><b>Audio:</b> {{ dialogGame.Audio }}</p>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="dialogGame.SeriesSInfo">
+    <div class="inline w-half">
+      <p class="series-title">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-brands"
+          fontIcon="fa-xbox"
+        ></mat-icon>
+        Series X
+      </p>
+    </div>
+    <div class="inline w-half">
+      <p class="series-title m-left-s">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-brands"
+          fontIcon="fa-xbox"
+        ></mat-icon>
+        Series S
+      </p>
+    </div>
+  </div>
+  <div *ngIf="dialogGame.SeriesSInfo">
+    <div class="inline w-half">
+      <div class="info-container">
+        <p><b>Info:</b> {{ dialogGame.SeriesXInfo }}</p>
+        <p [innerHTML]="dialogGame.SeriesXModes"></p>
+      </div>
+    </div>
+    <div class="inline w-half">
+      <div class="info-container m-left-s">
+        <p><b>Info:</b> {{ dialogGame.SeriesSInfo }}</p>
+        <p [innerHTML]="dialogGame.SeriesSModes"></p>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="dialogGame.OneInfo">
+    <div class="inline w-half">
+      <p class="one-title">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-brands"
+          fontIcon="fa-xbox"
+        ></mat-icon>
+        One
+      </p>
+    </div>
+    <div class="inline w-half">
+      <p class="one-title m-left-s">
+        <mat-icon
+          style="display: inline"
+          fontSet="fa-brands"
+          fontIcon="fa-xbox"
+        ></mat-icon>
+        One X
+      </p>
+    </div>
+  </div>
+  <div *ngIf="dialogGame.OneInfo">
+    <div class="inline w-half">
+      <div class="info-container">
+        <p><b>Info:</b> {{ dialogGame.OneInfo }}</p>
+        <p [innerHTML]="dialogGame.OneModes"></p>
+      </div>
+    </div>
+    <div class="inline w-half">
+      <div class="info-container m-left-s">
+        <p><b>Info:</b> {{ dialogGame.OneXInfo }}</p>
+        <p [innerHTML]="dialogGame.OneXModes"></p>
+      </div>
+    </div>
+  </div>
+</mat-dialog-content>

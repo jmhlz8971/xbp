@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+
+@include mat.core();
+
+$my-primary: mat.define-palette(mat.$indigo-palette, 500);
+$my-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$my-warn: mat.define-palette(mat.$red-palette);
+
+$custom-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $my-primary,
+      accent: $my-accent,
+      warn: $my-warn,
+    ),
+  )
+);
+
+@include mat.all-component-themes($custom-theme);
+
+body {
+  background-color: #1c1c1c;
+  padding: 0;
+  margin: 0;
+}
+
+@import "~@fortawesome/fontawesome-free/css/all.css";
