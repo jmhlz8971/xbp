@@ -19,7 +19,7 @@ $custom-theme: mat.define-dark-theme(
 @include mat.all-component-themes($custom-theme);
 
 body {
-  background-color: #1c1c1c;
+  background-color: #111111;
   padding: 0;
   margin: 0;
 }

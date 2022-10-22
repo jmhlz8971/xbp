@@ -14,12 +14,12 @@
 .info-container {
   font-size: 1rem;
   white-space: pre-wrap;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(31, 31, 31);
   padding: 10px;
   height: 100%;
   border-radius: 5px;
   margin-bottom: 20px;
-  border: 1px solid rgb(49, 49, 49);
+  border: 1px solid rgb(55, 55, 55);
 }
 
 .series-title {
@@ -56,4 +56,10 @@
   background-color: #4a5c70;
   border-radius: 5px;
   border: 1px solid rgb(144, 196, 238);
+}
+
+.mat-dialog-actions {
+  float: right;
+  margin: 0;
+  padding: 0;
 }

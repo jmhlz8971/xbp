@@ -29,5 +29,30 @@ img {
 }
 
 ::ng-deep.mat-dialog-container {
-  background-color: #252526 !important;
+  background-color: #141414cb !important;
+  backdrop-filter: blur(15px);
+  border-radius: 15px !important;
+}
+
+::ng-deep.mat-form-field-underline {
+visibility: hidden;
+}
+
+::ng-deep.mat-form-field-wrapper {
+  margin-bottom: 0px !important;
+  padding-top: 0.5rem;
+  margin-right: 30px;
+}
+
+::ng-deep.mat-form-field-label {
+  padding-top: 0.5rem;
+  padding-left: 20px;
+}
+
+input {
+  margin-right: 20px;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: #111111;
+  border-radius: 20px;
 }

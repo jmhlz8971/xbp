@@ -10,7 +10,7 @@ export class ExcelService {
   constructor(private http: HttpClient) {}
 
   public getGames(): Observable<Array<Game>> {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/1SAB2xMqmlLpS7gTSb39DCO0I44RktNmHXFJ3K55APzs/values/R1C1:R4C14?alt=json&key=AIzaSyDzVF5lB-ihgYJ7K2s7-mfFWiD0UeWpPTs`;
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/1SAB2xMqmlLpS7gTSb39DCO0I44RktNmHXFJ3K55APzs/values/R1C1:R10C14?alt=json&key=AIzaSyDzVF5lB-ihgYJ7K2s7-mfFWiD0UeWpPTs`;
 
     return this.http.get(url).pipe(
       map((res: any) => {
